@@ -1,0 +1,15 @@
+Pioneer Woman Website
+
+-Tasty Tastes
+
+-Nav Bar
+ -Home, Recipes, About Me, Suggestions, Order Book (Ashley's Tasty Tastes)
+
+-Make the recipes like the cooking bread page. Rows and columns.
+
+-Picture, caption, and recipe
+
+-Brownies, Carbonara, Sourdough Bread, French Toast, Flank Steak, Lemonade, Fish tacos,
+pumpkin pie, chile rellenos.
+
+-White background, simple, google fonts, black font, pops of color
