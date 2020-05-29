@@ -431,10 +431,11 @@ Recipes Body Section
   width: 65%;
   margin-top: 25px;
   font-size: 24px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
   line-height: 36px;
   margin-left: 80px;
   padding-right: 90px;
+  font-weight: 700;
 }
 
 .body-img {
@@ -449,4 +450,37 @@ Recipes Body Section
 
 .body-p {
   margin-bottom: -150px;
+}
+
+/* 
+===========================
+About
+===========================
+ */
+
+.about-img {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 150px;
+  display: inline-block;
+}
+
+.img-div {
+  text-align: left;
+}
+
+.body-div {
+  float: right;
+  width: 50%;
+  display: inline-block;
+  margin-top: -625px;
+  margin-right: -10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.footer-margin {
+  margin-top: -75px;
 }
