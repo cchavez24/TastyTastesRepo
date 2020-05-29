@@ -46,9 +46,15 @@ Custom Style
 ==========================
  */
 
-body {
+.body-home {
   background-image: url(images/cooking.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  color: rgb(32, 93, 32);
+}
+
+.body-other {
+  background-image: url(images/cooking.jpg);
+  background-repeat: no-repeat;
   color: rgb(32, 93, 32);
 }
 
@@ -176,7 +182,7 @@ Images
 =====================
  */
 
-img {
+.home-img {
   border-radius: 50%;
   width: 300px;
 }
@@ -189,6 +195,23 @@ img {
   height: 200px;
 }
 
+.recipe-img {
+  width: 620px;
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+div {
+  width: 960px;
+}
+
+.center img {
+  display: inline-block;
+}
+
 /* 
 ======================
 Primary Footer
@@ -198,16 +221,19 @@ Primary Footer
 .footer-nav {
   width: 100%;
   display: inline-block;
-  margin-left: -720px;
+  margin-left: -220px;
+  margin-top: 15px;
+  padding-bottom: 25px;
 }
 
 footer small {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 footer {
-  margin-top: 450px;
+  margin-top: 400px;
+  background: rgb(236, 234, 234);
 }
 
 /* 
@@ -223,12 +249,53 @@ h3 {
   margin-bottom: 10px;
 }
 
-h3:hover {
+.col-1-3 h3:hover {
   color: #205d20;
 }
 
 .h3-margin {
   margin-left: 80px;
+}
+
+.h3-other {
+  color: white;
+  background: rgb(224, 37, 37);
+  padding: 20px 146px 20px 0px;
+  display: inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  width: 279px;
+  margin-top: -15px;
+}
+
+h2 {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 48px;
+}
+
+.h2-margin {
+  margin-top: -450px;
+  margin-bottom: 25px;
+}
+
+.byline {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.byline a {
+  color: #205d20;
+}
+
+.byline a:hover {
+  color: rgb(38, 167, 91);
+}
+
+aside {
+  float: right;
+  margin-top: -400px;
+  margin-right: 100px;
 }
 
 /* 
@@ -245,4 +312,141 @@ h3:hover {
   padding: 25px 0;
   text-align: center;
   margin-top: 45px;
+}
+
+.big-row {
+  width: 100%;
+  background: #fff;
+  margin-top: 45px;
+  padding: 500px 0 0 0;
+}
+
+/* 
+======================
+Recipes
+======================
+ */
+
+td {
+  padding: 15px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 22px;
+  text-align: justify;
+}
+
+tr td:last-child {
+  padding-right: 50px;
+}
+
+.recipe-padding {
+  padding-bottom: 50px;
+}
+
+.cooking-padding {
+  padding-top: 25px;
+}
+
+table {
+  border: 1px solid gray;
+  margin-top: -10px;
+  border-top: none;
+}
+
+span {
+  font-weight: 700;
+}
+
+.ingredients-h3 {
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgb(236, 234, 234);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 25px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+aside ul {
+  list-style-type: disc;
+  color: black;
+  list-style-position: inside;
+  text-align: justify;
+  padding-left: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid gray;
+  margin-top: -11px;
+}
+
+aside li {
+  line-height: 22px;
+}
+
+aside li:first-child {
+  padding-top: 15px;
+}
+
+aside li:last-child {
+  padding-bottom: 15px;
+}
+
+.instructions-container {
+  width: 279px;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-right: 30px;
+  line-height: 22px;
+  margin-left: 10px;
+  padding-left: 15px;
+  letter-spacing: 0.1px;
+}
+
+p:first-child {
+  padding-top: 15px;
+}
+
+aside div {
+  border: 1px solid gray;
+  margin-top: -10px;
+}
+
+/* 
+=======================
+Recipes Body Section
+=======================
+ */
+
+.body-recipe {
+  font-family: "Open Sans Condensed", sans-serif;
+  width: 65%;
+  margin-top: 25px;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  margin-left: 80px;
+  padding-right: 90px;
+}
+
+.body-img {
+  margin: 25px 70px 25px 0;
+  width: 620px;
+}
+
+.img-alt {
+  margin: 25px 450px 25px 0;
+  width: 620px;
+}
+
+.body-p {
+  margin-bottom: -150px;
 }
