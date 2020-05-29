@@ -72,7 +72,7 @@ Custom Style
 
 .container, .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 
 .container {
@@ -163,11 +163,6 @@ nav li a:hover {
   color: rgb(38, 167, 91);
 }
 
-.container {
-  margin: 0 auto;
-  width: 960px;
-}
-
 h1 {
   display: inline-block;
 }
@@ -196,8 +191,8 @@ Images
 }
 
 .recipe-img {
-  width: 620px;
-  margin-top: 50px;
+  width: 64.58%;
+  margin-top: 5.2083%;
 }
 
 .center {
