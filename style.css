@@ -197,7 +197,8 @@ Images
 
 .recipe-img {
   width: 64.58%;
-  margin-top: 5.2083%;
+  margin-top: 7%;
+  margin-bottom: 2%;
 }
 
 .center {
@@ -294,7 +295,7 @@ h2 {
 
 aside {
   float: right;
-  margin-top: -32%;
+  margin-top: -33.33%;
   margin-right: 8%;
 }
 
@@ -309,7 +310,7 @@ aside {
   background: -webkit-linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
   background: -moz-linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
   background: linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
-  padding: 25px 0;
+  padding: 2% 0;
   text-align: center;
   margin-top: 3.5%;
 }
@@ -328,7 +329,7 @@ Recipes
  */
 
 td {
-  padding: 15px;
+  width: 54.75%;
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 22px;
@@ -336,20 +337,26 @@ td {
 }
 
 tr td:last-child {
-  padding-right: 50px;
+  padding-right: 16%;
+  padding-left: 0%;
 }
 
 .recipe-padding {
-  padding-bottom: 50px;
+  padding-bottom: 19%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-top: 10%;
 }
 
 .cooking-padding {
-  padding-top: 25px;
+  padding-top: 10%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
 }
 
 table {
   border: 1px solid gray;
-  margin-top: -10px;
+  margin-top: -4%;
   border-top: none;
 }
 
@@ -359,13 +366,13 @@ span {
 
 .ingredients-h3 {
   color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background: rgb(236, 234, 234);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 7%;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
@@ -375,11 +382,11 @@ aside ul {
   color: black;
   list-style-position: inside;
   text-align: justify;
-  padding-left: 15px;
+  padding-left: 7%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
   border: 1px solid gray;
-  margin-top: -11px;
+  margin-top: -4%;
 }
 
 aside li {
@@ -387,37 +394,37 @@ aside li {
 }
 
 aside li:first-child {
-  padding-top: 15px;
+  padding-top: 7%;
 }
 
 aside li:last-child {
-  padding-bottom: 15px;
+  padding-bottom: 7%;
 }
 
 .instructions-container {
   width: 279px;
 }
 
-p {
+.instructions-container p {
   font-size: 14px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 7%;
   text-align: left;
-  margin-right: 30px;
+  margin-right: 11%;
   line-height: 22px;
-  margin-left: 10px;
-  padding-left: 15px;
+  margin-left: 5%;
+  padding-left: 5%;
   letter-spacing: 0.1px;
 }
 
-p:first-child {
-  padding-top: 15px;
+.instructions-container p:first-child {
+  padding-top: 5%;
 }
 
 aside div {
   border: 1px solid gray;
-  margin-top: -10px;
+  margin-top: -3.5%;
 }
 
 /* 
@@ -429,27 +436,30 @@ Recipes Body Section
 .body-recipe {
   font-family: "Open Sans Condensed", sans-serif;
   width: 65%;
-  margin-top: 25px;
+  margin-top: 2%;
   font-size: 24px;
   letter-spacing: 0.2px;
   line-height: 36px;
-  margin-left: 80px;
-  padding-right: 90px;
+  margin-left: 6%;
+  padding-right: 7%;
   font-weight: 700;
+  color: black;
+  text-align: left;
+  padding-left: 1.5%;
 }
 
 .body-img {
-  margin: 25px 70px 25px 0;
-  width: 620px;
+  margin: 2% 6% 2% 0;
+  width: 49%;
 }
 
 .img-alt {
-  margin: 25px 450px 25px 0;
-  width: 620px;
+  margin: 2% 36% 2% 0;
+  width: 49%;
 }
 
 .body-p {
-  margin-bottom: -150px;
+  margin-bottom: -20%;
 }
 
 /* 
@@ -459,11 +469,10 @@ About
  */
 
 .about-img {
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 150px;
-  display: inline-block;
+  width: 41%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 15%;
 }
 
 .img-div {
@@ -474,13 +483,15 @@ About
   float: right;
   width: 50%;
   display: inline-block;
-  margin-top: -625px;
-  margin-right: -10px;
+  margin-top: -63%;
+  margin-right: -1%;
   font-family: "Open Sans Condensed", sans-serif;
+  color: black;
   font-size: 24px;
   line-height: 40px;
+  text-align: justify;
 }
 
 .footer-margin {
-  margin-top: -75px;
+  margin-top: 1%;
 }
