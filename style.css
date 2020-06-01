@@ -255,12 +255,19 @@ Primary Footer
      display: inline-block;
    }
  }
- 
+
 .footer-nav {
   width: 90%;
   display: inline-block;
   text-align: right;
   padding-bottom: 2.25%;
+}
+
+@media only screen and (max-width: 900px) {
+  footer small {
+    display: inline-block;
+    margin-left: 10%;
+  }
 }
 
 footer small {
