@@ -352,9 +352,9 @@ aside {
 @media only screen and (max-width: 900px) {
   .row {
     width: 50%;
-    background: -webkit-linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
-    background: -moz-linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
-    background: linear-gradient(to bottom, #205d20, rgb(240, 233, 233));
+    background: -webkit-linear-gradient(to bottom, #29205d, rgb(240, 233, 233));
+    background: -moz-linear-gradient(to bottom, #29205d, rgb(240, 233, 233));
+    background: linear-gradient(to bottom, #29205d, rgb(240, 233, 233));
     padding: 2% 0;
     text-align: center;
     margin-top: 3.5%;
