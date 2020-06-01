@@ -143,6 +143,16 @@ nav {
   margin-top: 0%;
 }
 
+@media screen and (max-width: 1200px) {
+  nav {
+    text-align: right;
+    width: 40%;
+    padding: 1%;
+    margin-left: -22%;
+    margin-top: 0%;
+  }
+}
+
 header nav li {
   display: inline-block;
   margin: 0% 3%;
@@ -492,13 +502,6 @@ About
   text-align: justify;
 }
 
-@media screen and (min-width: 1201px) {}
 .footer-margin {
   margin-top: 1%;
-}
-
-@media screen and (max-width: 1200px) {
-  .footer-margin {
-    margin-top: 0%;
-  }
 }
