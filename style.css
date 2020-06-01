@@ -201,7 +201,7 @@ Images
 
 @media screen and (max-width: 1200px) {
   .home-img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: 20px;
   }
 }
