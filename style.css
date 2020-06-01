@@ -125,7 +125,7 @@ Primary Header
   .logo {
     font-family: 'Indie Flower', cursive;
     font-size: 48px;
-    text-align: left;
+    text-align: center;
     padding: 3%;
   }
 }
