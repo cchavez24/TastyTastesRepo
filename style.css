@@ -143,6 +143,16 @@ nav {
   margin-top: 0%;
 }
 
+@media only screen and (max-width: 1200px) {
+  nav {
+    /* text-align: right; */
+    width: 60%;
+    /* padding: 1%;
+    margin-left: -22%;
+    margin-top: 0%; */
+  }
+}
+
 header nav li {
   display: inline-block;
   margin: 0% 3%;
