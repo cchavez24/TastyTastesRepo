@@ -192,16 +192,19 @@ Images
 =====================
  */
 
+ @media screen and (min-width: 1201px) {}
 .home-img {
   border-radius: 50%;
   width: 300px;
+}
 }
 
 @media screen and (max-width: 1200px) {
   .home-img {
     border-radius: 50%;
-    width: 20%;
+    width: 20px;
   }
+}
   
   .img-margin {
     margin-left: 100px;
