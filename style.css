@@ -143,7 +143,7 @@ nav {
   margin-top: 0%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
   nav {
     /* text-align: right; */
     width: 100%;
