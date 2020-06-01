@@ -145,7 +145,7 @@ nav {
 
 @media screen and (max-width: 1200px) {
   nav {
-    text-align: right;
+    /* text-align: right; */
     width: 100%;
     /* padding: 1%;
     margin-left: -22%;
