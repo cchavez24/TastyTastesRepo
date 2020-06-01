@@ -191,15 +191,6 @@ nav li:last-child {
   margin-right: 0%;
 }
 
-@media only screen and (max-width: 900px) {
-  nav li a {
-    color: #205d20;
-    font-family: 'Indie Flower', cursive;
-    font-weight: 400;
-    font-size: 1em;
-  }
-}
-
 nav li a {
   color: #205d20;
   font-family: 'Indie Flower', cursive;
@@ -275,7 +266,6 @@ Primary Footer
 @media only screen and (max-width: 900px) {
   footer small {
     display: inline-block;
-    margin-left: 10%;
   }
 }
 
