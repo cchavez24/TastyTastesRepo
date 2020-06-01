@@ -75,7 +75,7 @@ Custom Style
   width: 80%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
   .container {
     width: 100%;
   }
@@ -158,6 +158,7 @@ header nav {
 @media only screen and (max-width: 900px) {
   header nav li {
     display: inline-block;
+    margin: 0%;
   }
 }
 
