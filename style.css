@@ -253,6 +253,7 @@ Primary Footer
   .footer-nav {
     width: 100%;
     display: inline-block;
+    margin-top: 50%;
   }
 }
 
