@@ -249,6 +249,13 @@ Primary Footer
 ======================
  */
 
+ @media only screen and (max-width: 900px) {
+   .footer-nav {
+     width: 100%;
+     display: inline-block;
+   }
+ }
+ 
 .footer-nav {
   width: 90%;
   display: inline-block;
