@@ -145,9 +145,9 @@ nav {
 
 @media only screen and (max-width: 900px) {
   nav {
-    /* text-align: right; */
-    width: 100%;
-    /* padding: 1%;
+    text-align: right;
+    /* width: 100%;
+    padding: 1%;
     margin-left: -22%;
     margin-top: 0%; */
   }
