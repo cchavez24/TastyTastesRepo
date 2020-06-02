@@ -215,16 +215,17 @@ Primary Footer
  */
 
 .footer-nav {
-  width: 90%;
+  width: 100%;
   display: inline-block;
-  text-align: right;
   padding-bottom: 2.25%;
+  text-align: right;
+  margin-left: -18%;
+  margin-top: 2.25%;
 }
 
 footer small {
   display: inline-block;
   margin-left: 4%;
-  margin-top: 2%;
 }
 
 footer {
