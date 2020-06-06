@@ -139,6 +139,7 @@ a {
   header nav {
     width: 900px;
     display: inline-block;
+    background: blue;
   }
 }
 
