@@ -148,6 +148,13 @@ header nav {
   margin-top: 0%;
 }
 
+@media only screen and (max-width: 1000px) {
+  header nav li {
+    display: inline-block;
+    background: blue;
+  }
+}
+
 header nav li {
   display: inline-block;
   margin: 0% 3%;
