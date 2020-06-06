@@ -137,7 +137,8 @@ a {
 
 @media only screen and (max-width: 900px) {
   header nav {
-    width: 100%;
+    width: 900px;
+    display: inline-block;
   }
 }
 
